@@ -3,7 +3,7 @@ import { FiDownload } from "react-icons/fi";
 import { IoStar } from "react-icons/io5";
 
 const MainAppsCard = ({ apps }) => {
-  console.log(apps);
+  // console.log(apps);
   return (
     <div className="border bg-white p-4 m-4 rounded-xl shadow-sm flex flex-col justify-center">
       <div className="flex justify-center">
