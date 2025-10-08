@@ -2,6 +2,7 @@ import React from "react";
 import { FaAppStoreIos } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import hero from "../../hero.png";
+import { Link } from "react-router";
 
 const Banner = () => {
   return (
@@ -19,14 +20,22 @@ const Banner = () => {
           </small>
         </p>
         <div className="mt-5 flex gap-3 justify-center">
-          <button className="font-bold btn">
+          <Link
+            to="https://play.google.com/store/apps"
+            target="_blank"
+            className="font-bold btn"
+          >
             <FaGooglePlay className="text-2xl" />
             Google Play
-          </button>
-          <button className="font-bold btn">
+          </Link>
+          <Link
+            to="https://apps.apple.com/"
+            target="_blank"
+            className="font-bold btn"
+          >
             <FaAppStoreIos className="text-blue-700 text-2xl" />
             App Store
-          </button>
+          </Link>
         </div>
       </div>
       <div className="mt-16 flex flex-col justify-center items-center">

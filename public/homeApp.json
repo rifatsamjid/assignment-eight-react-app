@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/B5FBLmqz/socail-messenger-app-logo.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "id": 201,
+    "description": "Messenger is a fast, reliable, and secure messaging app that allows you to chat with friends, family, and colleagues. You can send text messages, voice notes, videos, photos, and even make voice and video calls. Integration with Instagram and Facebook makes staying connected easier than ever.",
+    "size": 12.5,
+    "reviews": 560,
+    "ratingAvg": 4.7,
+    "downloads": "125M",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 27 },
+      { "name": "4 star", "count": 130 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 202,
+    "description": "Telegram is a cloud-based messaging app focused on speed and security. It allows you to send unlimited messages, photos, videos, and files of any type. You can also create large groups, channels, and bots for automation, making it perfect for both personal and business communication.",
+    "size": 22.0,
+    "reviews": 820,
+    "ratingAvg": 4.5,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 68 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 203,
+    "description": "Instagram is a social media platform for sharing photos, videos, and stories. Users can follow friends, celebrities, and brands, interact via likes, comments, and DMs, and explore trending content on Reels and IGTV. Instagram provides creative tools like filters and AR effects to make your posts more engaging.",
+    "size": 18.3,
+    "reviews": 970,
+    "ratingAvg": 4.6,
+    "downloads": "275M",
+    "ratings": [
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 42 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 598 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/X9Vg0wg/Spotify-icon-svg.png",
+    "title": "Spotify",
+    "companyName": "Spotify",
+    "id": 204,
+    "description": "Spotify is a digital music streaming service that gives you access to millions of songs, podcasts, and playlists from all over the world. You can listen online or offline, create playlists, discover new music through personalized recommendations, and enjoy high-quality audio on any device.",
+    "size": 35.1,
+    "reviews": 630,
+    "ratingAvg": 4.3,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 194 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 205,
+    "description": "Netflix is a leading streaming platform that lets you watch movies, TV shows, documentaries, and original content on demand. You can create multiple profiles, download content for offline viewing, and enjoy personalized recommendations based on your watch history.",
+    "size": 50.6,
+    "reviews": 1400,
+    "ratingAvg": 4.8,
+    "downloads": "35M",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 32 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k6VSdqTc/images-1.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 206,
+    "description": "TikTok is a platform for creating, sharing, and discovering short-form videos. Users can showcase talents, enjoy entertainment, and engage with trending challenges. It features a personalized 'For You' feed, music integration, and a wide range of creative effects to make videos fun and interactive.",
+    "size": 28.4,
+    "reviews": 760,
+    "ratingAvg": 4.4,
+    "downloads": "18M",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 372 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gLg6zyR8/images.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 207,
+    "description": "YouTube is the world's largest video-sharing platform, allowing users to upload, watch, comment, and share videos. It supports live streaming, playlists, and a vast range of content from tutorials to entertainment. Monetization options make it ideal for creators and businesses.",
+    "size": 15.0,
+    "reviews": 550,
+    "ratingAvg": 4.2,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 178 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 208,
+    "description": "Facebook is a social networking platform that helps you connect with friends, family, and communities. You can post updates, share photos and videos, join groups, follow pages, and stay informed with events and news. It's a hub for social interaction and content discovery.",
+    "size": 24.7,
+    "reviews": 1020,
+    "ratingAvg": 4.5,
+    "downloads": "2.9B",
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 16 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 545 }
+    ]
+  }
+]
