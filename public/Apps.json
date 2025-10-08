@@ -1,326 +1,507 @@
 [
   {
-    "image": "https://images.openai.com/thumbnails/url/28 awesome app icons for inspiration - 99designs",
-    "title": "IconGallery",
-    "companyName": "GraphiCore",
-    "id": 301,
-    "description": "Browse and download high quality icon sets",
-    "size": 20.7,
-    "reviews": 680,
+    "image": "https://i.ibb.co.com/B5FBLmqz/socail-messenger-app-logo.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "id": 201,
+    "description": "Messenger is a fast, reliable, and secure messaging app that allows you to chat with friends, family, and colleagues. You can send text messages, voice notes, videos, photos, and even make voice and video calls. Integration with Instagram and Facebook makes staying connected easier than ever.",
+    "size": 12.5,
+    "reviews": 560,
+    "ratingAvg": 4.7,
+    "downloads": "125M",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 27 },
+      { "name": "4 star", "count": 130 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 202,
+    "description": "Telegram is a cloud-based messaging app focused on speed and security. It allows you to send unlimited messages, photos, videos, and files of any type. You can also create large groups, channels, and bots for automation, making it perfect for both personal and business communication.",
+    "size": 22.0,
+    "reviews": 820,
+    "ratingAvg": 4.5,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 68 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 203,
+    "description": "Instagram is a social media platform for sharing photos, videos, and stories. Users can follow friends, celebrities, and brands, interact via likes, comments, and DMs, and explore trending content on Reels and IGTV. Instagram provides creative tools like filters and AR effects to make your posts more engaging.",
+    "size": 18.3,
+    "reviews": 970,
     "ratingAvg": 4.6,
-    "downloads": 145000,
+    "downloads": "275M",
+    "ratings": [
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 42 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 598 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/X9Vg0wg/Spotify-icon-svg.png",
+    "title": "Spotify",
+    "companyName": "Spotify",
+    "id": 204,
+    "description": "Spotify is a digital music streaming service that gives you access to millions of songs, podcasts, and playlists from all over the world. You can listen online or offline, create playlists, discover new music through personalized recommendations, and enjoy high-quality audio on any device.",
+    "size": 35.1,
+    "reviews": 630,
+    "ratingAvg": 4.3,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 194 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 205,
+    "description": "Netflix is a leading streaming platform that lets you watch movies, TV shows, documentaries, and original content on demand. You can create multiple profiles, download content for offline viewing, and enjoy personalized recommendations based on your watch history.",
+    "size": 50.6,
+    "reviews": 1400,
+    "ratingAvg": 4.8,
+    "downloads": "35M",
     "ratings": [
       { "name": "1 star", "count": 8 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 220 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 32 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k6VSdqTc/images-1.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 206,
+    "description": "TikTok is a platform for creating, sharing, and discovering short-form videos. Users can showcase talents, enjoy entertainment, and engage with trending challenges. It features a personalized 'For You' feed, music integration, and a wide range of creative effects to make videos fun and interactive.",
+    "size": 28.4,
+    "reviews": 760,
+    "ratingAvg": 4.4,
+    "downloads": "18M",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 372 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gLg6zyR8/images.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 207,
+    "description": "YouTube is the world's largest video-sharing platform, allowing users to upload, watch, comment, and share videos. It supports live streaming, playlists, and a vast range of content from tutorials to entertainment. Monetization options make it ideal for creators and businesses.",
+    "size": 15.0,
+    "reviews": 550,
+    "ratingAvg": 4.2,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 178 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 208,
+    "description": "Facebook is a social networking platform that helps you connect with friends, family, and communities. You can post updates, share photos and videos, join groups, follow pages, and stay informed with events and news. It's a hub for social interaction and content discovery.",
+    "size": 24.7,
+    "reviews": 1020,
+    "ratingAvg": 4.5,
+    "downloads": "2.9B",
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 16 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 545 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/TBkNSmMG/google-play-store-logo-header.webp",
+    "title": "Google Play Store",
+    "companyName": "Google LLC",
+    "id": 209,
+    "description": "The Google Play Store is the official app store for Android devices, offering millions of apps, games, books, and movies. It ensures safe downloads and seamless updates while providing user reviews and personalized recommendations.",
+    "size": 29.2,
+    "reviews": 1500,
+    "ratingAvg": 4.8,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 75 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 990 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 210,
+    "description": "X is a social media platform for sharing short posts, photos, and videos. Engage with trending topics, follow creators, and join global conversations in real-time.",
+    "size": 25.5,
+    "reviews": 910,
+    "ratingAvg": 4.1,
+    "downloads": "750M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
       { "name": "5 star", "count": 400 }
     ]
   },
   {
-    "image": "https://images.openai.com/thumbnails/url/The Ultimate Guide to APPs Icon Design in 7 Steps",
-    "title": "AppIconTutor",
-    "companyName": "LearnDesign",
-    "id": 302,
-    "description": "Tutorials & tips for app icon design",
-    "size": 18.9,
-    "reviews": 540,
-    "ratingAvg": 4.4,
-    "downloads": 105000,
+    "image": "https://i.ibb.co.com/JWNYtfd9/Google-Chrome-icon-February-2022-svg.webp",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 211,
+    "description": "Google Chrome is a fast, secure, and simple web browser with synchronization across devices. It features tab management, extensions, and incognito mode for privacy.",
+    "size": 48.1,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": "8B",
     "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 18 },
-      { "name": "3 star", "count": 60 },
-      { "name": "4 star", "count": 180 },
-      { "name": "5 star", "count": 272 }
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 1155 }
     ]
   },
   {
-    "image": "https://images.openai.com/thumbnails/url/UI Icons: Explaining Every Single Type with Inspirational Examples",
-    "title": "UIIconExplorer",
-    "companyName": "IconLab",
-    "id": 303,
-    "description": "Explore UI / icon styles & categories",
-    "size": 25.3,
-    "reviews": 610,
-    "ratingAvg": 4.5,
-    "downloads": 135000,
+    "image": "https://i.ibb.co.com/nMkH2CcN/Gmail-icon-2020-svg.webp",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 212,
+    "description": "Gmail is a powerful email app offering organized inboxes, spam protection, and seamless Google Workspace integration. It supports multiple accounts and offline access.",
+    "size": 23.0,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": "5B",
     "ratings": [
-      { "name": "1 star", "count": 7 },
-      { "name": "2 star", "count": 14 },
-      { "name": "3 star", "count": 55 },
-      { "name": "4 star", "count": 240 },
-      { "name": "5 star", "count": 294 }
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 665 }
     ]
   },
   {
-    "image": "https://images.openai.com/thumbnails/url/App Icon Design Best Practices",
-    "title": "IconBestPractices",
-    "companyName": "UXInsight",
-    "id": 304,
-    "description": "Best practices & guidelines for icon design",
-    "size": 16.8,
-    "reviews": 480,
-    "ratingAvg": 4.3,
-    "downloads": 90000,
+    "image": "https://i.ibb.co.com/s9gxvT3z/Google-Maps-Icons-Logo-2015.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 213,
+    "description": "Google Maps provides accurate maps, navigation, and real-time traffic updates. It also offers satellite imagery, local business details, and offline map support.",
+    "size": 33.5,
+    "reviews": 1600,
+    "ratingAvg": 4.8,
+    "downloads": "10B",
     "ratings": [
       { "name": "1 star", "count": 12 },
       { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 998 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nqc86kh2/Google-Drive-Logo-wine.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 214,
+    "description": "Google Drive lets you store, share, and collaborate on files securely. With 15GB of free space, it integrates with Docs, Sheets, and Slides for productivity.",
+    "size": 31.7,
+    "reviews": 870,
+    "ratingAvg": 4.7,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 472 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NnshCmBX/Cap-Cut-Logo-2020-2022.png",
+    "title": "CapCut",
+    "companyName": "ByteDance Ltd.",
+    "id": 215,
+    "description": "CapCut is a free all-in-one video editing app that helps you create stunning videos with effects, filters, stickers, and music. Perfect for TikTok and Reels content creators.",
+    "size": 45.2,
+    "reviews": 740,
+    "ratingAvg": 4.6,
+    "downloads": "120M",
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 343 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/m5SKh7Gc/unnamed.png",
+    "title": "TikTok Lite",
+    "companyName": "ByteDance Ltd.",
+    "id": 216,
+    "description": "TikTok Lite offers a lighter version of TikTok with faster load times and lower data usage, ideal for users on slower networks or limited storage devices.",
+    "size": 12.3,
+    "reviews": 420,
+    "ratingAvg": 4.2,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 15 },
       { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 196 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4gDZp4tg/f71ffb7ad7db43ccc7b1466de418f254.jpg",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc.",
+    "id": 217,
+    "description": "WhatsApp is a secure messaging app offering end-to-end encrypted chats, voice calls, and video calls. It also supports file sharing, groups, and business communication.",
+    "size": 29.9,
+    "reviews": 1350,
+    "ratingAvg": 4.8,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 75 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 785 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b5Lcz5s6/Linked-In-icon-svg.webp",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corp.",
+    "id": 218,
+    "description": "LinkedIn is a professional networking platform that helps you connect with colleagues, apply for jobs, and showcase your career achievements and skills.",
+    "size": 40.2,
+    "reviews": 630,
+    "ratingAvg": 4.4,
+    "downloads": "850M",
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 244 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GQD9w5rw/Discord-Logo.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 219,
+    "description": "Discord is a communication app for communities, offering voice channels, chat rooms, and streaming for gamers, creators, and teams.",
+    "size": 38.6,
+    "reviews": 950,
+    "ratingAvg": 4.7,
+    "downloads": "150M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 555 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k6QmnJtj/Reddit-Logo.jpg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 220,
+    "description": "Reddit is a social network built around communities. Users can discuss topics, share memes, ask questions, and join countless interest-based forums called subreddits.",
+    "size": 30.5,
+    "reviews": 670,
+    "ratingAvg": 4.3,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 28 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 287 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xqsWvn1V/Twitch-logo-svg.png",
+    "title": "Twitch",
+    "companyName": "Amazon Inc.",
+    "id": 221,
+    "description": "Twitch is a live-streaming platform for gamers and creators. Viewers can watch streams, chat live, and subscribe to their favorite channels.",
+    "size": 46.8,
+    "reviews": 540,
+    "ratingAvg": 4.4,
+    "downloads": "55M",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 16 },
+      { "name": "3 star", "count": 80 },
       { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 254 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6cnrq51j/Brand-Guidelines-hero-2x.webp",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 222,
+    "description": "Pinterest helps you discover creative ideas and inspirations through images and videos. Save Pins, create boards, and explore new design trends.",
+    "size": 34.1,
+    "reviews": 510,
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 232 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Pvmzc5tv/images-2.png",
+    "title": "SoundCloud",
+    "companyName": "SoundCloud Ltd.",
+    "id": 223,
+    "description": "SoundCloud allows musicians to upload and share their music. Listeners can discover new tracks, follow artists, and build playlists easily.",
+    "size": 28.9,
+    "reviews": 480,
+    "ratingAvg": 4.2,
+    "downloads": "120M",
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 150 },
       { "name": "5 star", "count": 218 }
     ]
   },
   {
-    "image": "https://images.openai.com/thumbnails/url/The 10 Rules of App Icon Design",
-    "title": "IconRules",
-    "companyName": "DesignRules",
-    "id": 305,
-    "description": "Rules & principles of good icon design",
-    "size": 22.1,
-    "reviews": 750,
-    "ratingAvg": 4.7,
-    "downloads": 170000,
+    "image": "https://i.ibb.co.com/8nFF0d4c/zoom-logo-in-blue-colors-meetings-app-logotype-illustration-free-png.webp",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 224,
+    "description": "Zoom provides video conferencing, webinars, and messaging services with HD video and secure communication for teams and businesses.",
+    "size": 60.4,
+    "reviews": 890,
+    "ratingAvg": 4.5,
+    "downloads": "800M",
     "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 8 },
-      { "name": "3 star", "count": 30 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 457 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/App Icon Ideas / Requests",
-    "title": "IconRequests",
-    "companyName": "CreativeHub",
-    "id": 306,
-    "description": "User-driven icon design requests & ideas",
-    "size": 14.7,
-    "reviews": 420,
-    "ratingAvg": 4.2,
-    "downloads": 85000,
-    "ratings": [
-      { "name": "1 star", "count": 14 },
-      { "name": "2 star", "count": 28 },
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 30 },
       { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 200 },
-      { "name": "5 star", "count": 88 }
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 502 }
     ]
   },
   {
-    "image": "https://images.openai.com/thumbnails/url/How to Design a Great App Icon",
-    "title": "IconWorkshop",
-    "companyName": "DesignAcademy",
-    "id": 307,
-    "description": "Hands-on icon design exercises",
-    "size": 30.2,
-    "reviews": 820,
-    "ratingAvg": 4.5,
-    "downloads": 195000,
+    "image": "https://i.ibb.co.com/99Vv1kV0/Google-Photos-Symbol.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 225,
+    "description": "Google Photos is a smart gallery app that automatically backs up photos and videos to the cloud, offering editing tools and AI-powered search.",
+    "size": 42.7,
+    "reviews": 950,
+    "ratingAvg": 4.8,
+    "downloads": "6B",
     "ratings": [
-      { "name": "1 star", "count": 9 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 60 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 436 }
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 465 }
     ]
   },
   {
-    "image": "https://images.openai.com/thumbnails/url/Mobile App Icons Part 01",
-    "title": "MobileIconSet1",
-    "companyName": "IconSeries",
-    "id": 308,
-    "description": "Part 1 of mobile icon sets collection",
-    "size": 19.5,
-    "reviews": 530,
-    "ratingAvg": 4.4,
-    "downloads": 115000,
-    "ratings": [
-      { "name": "1 star", "count": 11 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 70 },
-      { "name": "4 star", "count": 210 },
-      { "name": "5 star", "count": 219 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/50 Free Flat Social Icons Sketch freebie",
-    "title": "SocialIconPack",
-    "companyName": "FlatIconStudio",
-    "id": 309,
-    "description": "Free flat style social media icons",
-    "size": 25.0,
-    "reviews": 600,
-    "ratingAvg": 4.5,
-    "downloads": 160000,
+    "image": "https://i.ibb.co.com/4Z69zhBp/YT-Music-svg.png",
+    "title": "YouTube Music",
+    "companyName": "Google LLC",
+    "id": 226,
+    "description": "YouTube Music lets you listen to millions of official tracks, albums, and live performances. Enjoy ad-free music and offline playback with premium.",
+    "size": 39.3,
+    "reviews": 520,
+    "ratingAvg": 4.3,
+    "downloads": "1B",
     "ratings": [
       { "name": "1 star", "count": 10 },
       { "name": "2 star", "count": 18 },
-      { "name": "3 star", "count": 50 },
-      { "name": "4 star", "count": 240 },
-      { "name": "5 star", "count": 282 }
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 242 }
     ]
   },
   {
-    "image": "https://images.openai.com/thumbnails/url/Best 10 iOS App Icons and Icon Packs for your iPhone and Android",
-    "title": "BestIconPacks",
-    "companyName": "IconShowroom",
-    "id": 310,
-    "description": "Top iOS & Android icon packs showcase",
-    "size": 28.8,
-    "reviews": 900,
-    "ratingAvg": 4.6,
-    "downloads": 210000,
-    "ratings": [
-      { "name": "1 star", "count": 7 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 45 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 536 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/IconsHub example",
-    "title": "IconHubPro",
-    "companyName": "IconsHub",
-    "id": 311,
-    "description": "Premium icons & design resources",
-    "size": 33.4,
-    "reviews": 1050,
-    "ratingAvg": 4.7,
-    "downloads": 260000,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 8 },
-      { "name": "3 star", "count": 25 },
-      { "name": "4 star", "count": 340 },
-      { "name": "5 star", "count": 672 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/IconSets example",
-    "title": "IconSetCollection",
-    "companyName": "SetDesigns",
-    "id": 312,
-    "description": "Collections of themed icon sets",
-    "size": 21.7,
+    "image": "https://i.ibb.co.com/8LCp2SYL/Wordmark-R-gradient-whole-RGB-01.png",
+    "title": "Tinder",
+    "companyName": "Match Group",
+    "id": 227,
+    "description": "Tinder is a dating app that helps you meet new people nearby. Swipe right to like, chat instantly with matches, and connect for meaningful conversations.",
+    "size": 54.5,
     "reviews": 720,
-    "ratingAvg": 4.5,
-    "downloads": 145000,
-    "ratings": [
-      { "name": "1 star", "count": 9 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 60 },
-      { "name": "4 star", "count": 240 },
-      { "name": "5 star", "count": 396 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/IconDesign tips example",
-    "title": "IconDesignTips",
-    "companyName": "DesignAid",
-    "id": 313,
-    "description": "Tips, tricks, and tutorials for icon design",
-    "size": 17.9,
-    "reviews": 480,
-    "ratingAvg": 4.3,
-    "downloads": 90000,
+    "ratingAvg": 4.2,
+    "downloads": "500M",
     "ratings": [
       { "name": "1 star", "count": 12 },
-      { "name": "2 star", "count": 18 },
-      { "name": "3 star", "count": 55 },
-      { "name": "4 star", "count": 180 },
-      { "name": "5 star", "count": 215 }
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 333 }
     ]
   },
   {
-    "image": "https://images.openai.com/thumbnails/url/IconTutorial example",
-    "title": "IconTutorials",
-    "companyName": "LearnIcons",
-    "id": 314,
-    "description": "Step-by-step icon tutorials",
-    "size": 23.2,
-    "reviews": 650,
-    "ratingAvg": 4.4,
-    "downloads": 130000,
-    "ratings": [
-      { "name": "1 star", "count": 11 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 60 },
-      { "name": "4 star", "count": 240 },
-      { "name": "5 star", "count": 319 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/ExampleIconSet2",
-    "title": "IconSetTwo",
-    "companyName": "SetTwo Studios",
-    "id": 315,
-    "description": "Alternate icon set themes",
-    "size": 26.5,
-    "reviews": 740,
-    "ratingAvg": 4.5,
-    "downloads": 155000,
-    "ratings": [
-      { "name": "1 star", "count": 9 },
-      { "name": "2 star", "count": 16 },
-      { "name": "3 star", "count": 55 },
-      { "name": "4 star", "count": 280 },
-      { "name": "5 star", "count": 380 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/IconExperiment example",
-    "title": "IconExperiment",
-    "companyName": "CreativeLabs",
-    "id": 316,
-    "description": "Experimental icon explorations",
-    "size": 29.8,
-    "reviews": 830,
+    "image": "https://i.ibb.co.com/fVmHVynF/Google-Play-Books.png",
+    "title": "Google Play Books",
+    "companyName": "Google LLC",
+    "id": 228,
+    "description": "Google Play Books allows you to read eBooks and audiobooks anytime, anywhere. Sync your reading progress and make annotations easily.",
+    "size": 27.2,
+    "reviews": 350,
     "ratingAvg": 4.6,
-    "downloads": 180000,
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 7 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 50 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 461 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/IconCollection example",
-    "title": "IconCollectionX",
-    "companyName": "CollecIcons",
-    "id": 317,
-    "description": "X themed icon collection",
-    "size": 24.3,
-    "reviews": 690,
-    "ratingAvg": 4.5,
-    "downloads": 140000,
-    "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 18 },
-      { "name": "3 star", "count": 60 },
-      { "name": "4 star", "count": 240 },
-      { "name": "5 star", "count": 362 }
-    ]
-  },
-  {
-    "image": "https://images.openai.com/thumbnails/url/IconDesignGallery example",
-    "title": "IconGalleryPro",
-    "companyName": "GalleryDesigns",
-    "id": 318,
-    "description": "Premium gallery of icon designs",
-    "size": 31.1,
-    "reviews": 900,
-    "ratingAvg": 4.6,
-    "downloads": 200000,
-    "ratings": [
-      { "name": "1 star", "count": 6 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 45 },
-      { "name": "4 star", "count": 310 },
-      { "name": "5 star", "count": 527 }
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 175 }
     ]
   }
 ]
