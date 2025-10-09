@@ -4,9 +4,9 @@ import { IoStar } from "react-icons/io5";
 import { useNavigate } from "react-router";
 
 const MainAppsCard = ({ apps }) => {
-  const navigate = useNavigate();
+  const navigation = useNavigate();
   const handleNavigate = () => {
-    navigate(`/apps/${apps.id}`);
+    navigation(`/apps/${apps.id}`);
   };
   // console.log(apps);
   return (
@@ -29,7 +29,6 @@ const MainAppsCard = ({ apps }) => {
           </p>
         </div>
       </div>
-      <button>show details</button>
     </div>
   );
 };

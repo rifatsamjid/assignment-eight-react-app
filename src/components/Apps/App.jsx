@@ -2,6 +2,7 @@ import React, { use, useState } from "react";
 import MainAppsCard from "./MainAppsCard";
 import { CiSearch } from "react-icons/ci";
 import ErrorApps from "../../App-Error.png";
+import { useNavigate } from "react-router";
 
 const App = ({ appsPromise }) => {
   const users = use(appsPromise);
@@ -12,6 +13,9 @@ const App = ({ appsPromise }) => {
     app.title.toLowerCase().includes(search.toLowerCase())
   );
   //   console.log(users);
+
+  const navigate = useNavigate();
+
   return (
     <div className="mt-16">
       <div className="flex flex-col lg:flex-row items-center gap-3 justify-between">
@@ -51,7 +55,7 @@ const App = ({ appsPromise }) => {
             another apps
           </p>
 
-          <div className="flex justify-center ">
+          <div onClick={() => navigate("/")} className="flex justify-center ">
             <button className="btn w-28 bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white">
               Go Back!
             </button>

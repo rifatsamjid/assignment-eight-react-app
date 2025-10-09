@@ -6,10 +6,13 @@ const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="border-2 border-red-600 mt-24">
-      <footer className="bg-black text-white flex gap-36 justify-center p-2">
-        <div className="mt-7">
-          <h1 onClick={() => navigate("/")} className="flex gap-1.5 mb-3">
+    <div className=" mt-24">
+      <footer className="bg-black text-white grid grid-cols-1 lg:grid-cols-3 gap-36 justify-center p-2">
+        <div className="mt-7 text-center lg:text-left">
+          <h1
+            onClick={() => navigate("/")}
+            className="flex justify-center gap-1.5 mb-3"
+          >
             <img className="w-6" src={logo} alt="" /> HERO.IO
           </h1>
           <p>
@@ -25,27 +28,27 @@ const Footer = () => {
             </small>
           </p>
         </div>
-        <div className="flex flex-col gap-12 mt-7">
+        <div className="flex flex-col items-center gap-12 mt-7">
           <h1>COMPANY</h1>
           <ul className="flex flex-col items-center gap-10">
             <li>
-              <a href="">About us</a>
+              <a href="#">About us</a>
             </li>
 
             <li>
-              <a href="">Contact</a>
+              <a href="#">Contact</a>
             </li>
 
             <li>
-              <a href="">Jobs</a>
+              <a href="#">Jobs</a>
             </li>
 
             <li>
-              <a href="">Press kit</a>
+              <a href="#">Press kit</a>
             </li>
           </ul>
         </div>
-        <div className="flex flex-col gap-12 mt-7">
+        <div className="flex flex-col items-center gap-12 mt-7">
           <h1>LEGAL</h1>
           <ul className="flex flex-col items-center gap-10">
             <li>
