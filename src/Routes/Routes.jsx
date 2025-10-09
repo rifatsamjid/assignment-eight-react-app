@@ -5,6 +5,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
 import Apps from "../components/Apps/Apps";
 import InstallApps from "../components/InstallAppps/InstallApps";
+import AppsDetails from "../components/Apps/AppsDetails";
 
 export const router = createBrowserRouter([
   {
@@ -20,7 +21,20 @@ export const router = createBrowserRouter([
         path: "install",
         Component: InstallApps,
       },
+      {
+        path: "apps/:appsId",
+        loader: ({ params }) =>
+          fetch(`/Apps.json/${params.appsId}`).then((res) => res.json()),
+        Component: AppsDetails,
+      },
     ],
     errorElement: <ErrorPage></ErrorPage>,
   },
 ]);
+
+//  {
+//         path: "users/:userID",
+//         loader: ({ params }) =>
+//           fetch(`https://jsonplaceholder.typicode.com/users/${params.userID}`),
+//         Component: UserDetails,
+//       },

@@ -1,11 +1,19 @@
 import React from "react";
 import { FiDownload } from "react-icons/fi";
 import { IoStar } from "react-icons/io5";
+import { useNavigate } from "react-router";
 
 const MainAppsCard = ({ apps }) => {
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate(`/apps/${apps.id}`);
+  };
   // console.log(apps);
   return (
-    <div className="border bg-white p-4 m-4 rounded-xl shadow-sm flex flex-col justify-center">
+    <div
+      onClick={handleNavigate}
+      className="border bg-white p-4 m-4 rounded-xl shadow-sm flex flex-col justify-center"
+    >
       <div className="flex justify-center">
         <img className="w-48" src={apps.image} alt="" />
       </div>
@@ -21,6 +29,7 @@ const MainAppsCard = ({ apps }) => {
           </p>
         </div>
       </div>
+      <button>show details</button>
     </div>
   );
 };

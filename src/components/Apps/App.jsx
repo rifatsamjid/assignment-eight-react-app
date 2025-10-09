@@ -14,7 +14,7 @@ const App = ({ appsPromise }) => {
   //   console.log(users);
   return (
     <div className="mt-16">
-      <div className="flex justify-between">
+      <div className="flex flex-col lg:flex-row items-center gap-3 justify-between">
         <h1 className="text-xl font-bold">({users.length}) Apps Found</h1>
         <div className="flex items-center relative">
           <CiSearch className="m-2 absolute" />
