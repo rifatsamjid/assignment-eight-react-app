@@ -55,7 +55,7 @@ const InstallApps = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="flex items-center justify-between w-full gap-16">
+      <div className="flex flex-col lg:flex-row items-center justify-between w-full gap-16">
         <h2 className="font-bold">{appList.length} Apps Found</h2>
         <select
           onChange={(e) => setSortOrder(e.target.value)}

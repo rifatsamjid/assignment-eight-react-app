@@ -21,9 +21,6 @@ const AppsDetails = () => {
   const { id } = useParams();
   const appID = parseInt(id);
   const singleApp = app.find((data) => data.id === appID);
-  // console.log(singleApp.ratings);
-  // console.log(id, typeof app);
-
   const {
     title,
     image,

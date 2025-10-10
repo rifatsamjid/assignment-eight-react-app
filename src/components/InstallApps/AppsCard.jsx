@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 const AppsCard = ({ apps, handleUninstall }) => {
   console.log(apps.title);
   return (
-    <div className="flex justify-between bg-white gap-5 rounded-sm p-2 w-full items-center">
+    <div className="flex flex-col lg:flex-row justify-between bg-white gap-5 rounded-sm p-2 w-full items-center">
       <div className="flex items-center gap-7">
         <img className="w-28" src={apps.image} alt="" />
         <div className="flex flex-col gap-4">

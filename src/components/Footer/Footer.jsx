@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <div className=" mt-24">
-      <footer className="bg-black text-white grid grid-cols-1 lg:grid-cols-3 gap-36 justify-center p-2">
+      <footer className="bg-black rounded-sm text-white grid grid-cols-1 lg:grid-cols-3 gap-36 justify-center p-4">
         <div className="mt-7 text-center lg:text-left">
           <h1
             onClick={() => navigate("/")}

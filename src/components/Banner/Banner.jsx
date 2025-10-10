@@ -25,7 +25,7 @@ const Banner = () => {
             target="_blank"
             className="font-bold btn"
           >
-            <FaGooglePlay className="text-2xl" />
+            <FaGooglePlay className="text-2xl text-green-500" />
             Google Play
           </Link>
           <Link

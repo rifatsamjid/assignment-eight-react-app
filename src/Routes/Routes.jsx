@@ -34,30 +34,7 @@ export const router = createBrowserRouter([
           </Suspense>
         ),
       },
-      // {
-      //   path: "apps",
-      //   element: (
-      //     <Suspense fallback={<Spinner />}>
-      //       <Apps />
-      //     </Suspense>
-      //   ),
-      //   errorElement: <ErrorApps />,
-      //   children: [
-      //     {
-      //       path: ":id",
-      //       loader: () => fetch(`/Apps.json`),
-      //       element: (
-      //         <Suspense fallback={<Spinner />}>
-      //           <AppsDetails />
-      //         </Suspense>
-      //       ),
-      //     },
-      //     {
-      //       path: "*",
-      //       element: <ErrorApps />,
-      //     },
-      //   ],
-      // },
+
       {
         path: "apps",
         element: (
