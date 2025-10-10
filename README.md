@@ -1,16 +1,36 @@
-# React + Vite
+# App-Mela
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App-Mela is a modern, user-friendly web platform inspired by an app marketplace experience.
+It brings together a wide variety of applications in one place — letting users explore, search, install, and manage apps effortlessly.
 
-Currently, two official plugins are available:
+With its clean design, smooth navigation, and responsive interface, App-Mela gives users the feel of a digital “mela” (fair) full of useful and exciting apps.
+Whether you’re discovering new tools or managing your installed ones, App-Mela makes the process simple, fast, and fun.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse a wide range of apps in different categories
+- View detailed information about each app
+- Install and uninstall apps (saved in local storage)
+- Real-time search and filtering
+- Custom error pages and loading spinners
+- Fully responsive for all devices
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+| Category               | Technology                            |
+| ---------------------- | ------------------------------------- |
+| **Frontend Framework** | React (with Vite)                     |
+| **Routing**            | React Router DOM                      |
+| **Styling**            | Tailwind CSS                          |
+| **UI Components**      | React Icons, Shadcn/UI (optional)     |
+| **State Management**   | React Hooks (`useState`, `useEffect`) |
+| **Data Handling**      | LocalStorage & JSON data fetching     |
+| **Notifications**      | React Toastify                        |
+| **Charts (if used)**   | Recharts                              |
+| **Lazy Loading**       | React `lazy()` and `Suspense`         |
+
+---
