@@ -12,7 +12,13 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <Suspense fallback={<span>Loading.....</span>}>
+      <Suspense
+        fallback={
+          <span>
+            <span className="loading loading-spinner loading-xl"></span>
+          </span>
+        }
+      >
         <App appsPromise={appsPromise}></App>
       </Suspense>
     </div>

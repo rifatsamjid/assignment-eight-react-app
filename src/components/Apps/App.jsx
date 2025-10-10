@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, { use, useEffect, useState } from "react";
 import MainAppsCard from "./MainAppsCard";
 import { CiSearch } from "react-icons/ci";
 import ErrorApps from "../../App-Error.png";
@@ -8,11 +8,21 @@ const App = ({ appsPromise }) => {
   const users = use(appsPromise);
 
   const [search, setSearch] = useState("");
+  const [filterApps, setFilterApps] = useState(users);
+  const [loading, setLoading] = useState(false);
 
-  const filterApps = users.filter((app) =>
-    app.title.toLowerCase().includes(search.toLowerCase())
-  );
-  //   console.log(users);
+  useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => {
+      const filtered = users.filter((app) =>
+        app.title.toLowerCase().includes(search.toLowerCase())
+      );
+      setFilterApps(filtered);
+      setLoading(false);
+    }, 600);
+
+    return () => clearTimeout(timer);
+  }, [search, users]);
 
   const navigate = useNavigate();
 
@@ -33,13 +43,13 @@ const App = ({ appsPromise }) => {
           />
         </div>
       </div>
-      {/* <div className="grid grid-cols-4 gap-4">
-        {users.map((apps) => (
-          <MainAppsCard key={apps.id} apps={apps}></MainAppsCard>
-        ))}
-      </div> */}
-      {filterApps.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+      {loading ? (
+        <div className="flex justify-center items-center h-40">
+          <div className="w-10 h-10 border-4 border-gray-300 border-t-purple-600 rounded-full animate-spin"></div>
+        </div>
+      ) : filterApps.length > 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
           {filterApps.map((apps) => (
             <MainAppsCard key={apps.id} apps={apps}></MainAppsCard>
           ))}

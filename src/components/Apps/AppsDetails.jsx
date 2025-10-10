@@ -1,4 +1,4 @@
-// import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { useLoaderData } from "react-router";
 import { FiDownload } from "react-icons/fi";
@@ -14,7 +14,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { addToStoredDB } from "../../utility/addToDB";
+import { addToStoredDB, getStoredApps } from "../../utility/addToDB";
 
 const AppsDetails = () => {
   const app = useLoaderData();
@@ -36,10 +36,33 @@ const AppsDetails = () => {
     description,
   } = singleApp;
 
-  // const [install,setInstall]=useState(false)
+  const [installed, setInstall] = useState(false);
+
+  useEffect(() => {
+    const storedApps = getStoredApps();
+    if (storedApps.includes(appID)) {
+      setInstall(true);
+    } else {
+      setInstall(false);
+    }
+  }, [appID]);
+
+  useEffect(() => {
+    const handleStorageChange = () => {
+      const storedApps = getStoredApps();
+      if (!storedApps.includes(appID)) {
+        setInstall(false);
+      }
+    };
+    window.addEventListener("storageUpdate", handleStorageChange);
+    return () => {
+      window.removeEventListener("storageUpdate", handleStorageChange);
+    };
+  }, [appID]);
 
   const handleAddApps = (id) => {
     addToStoredDB(id);
+    setInstall(true);
   };
 
   return (
@@ -74,8 +97,9 @@ const AppsDetails = () => {
           <button
             onClick={() => handleAddApps(id)}
             className="btn w-48 bg-green-400 text-white"
+            disabled={installed}
           >
-            Install Now ({size} MB)
+            {installed ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>

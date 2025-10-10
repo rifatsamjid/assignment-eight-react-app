@@ -1,8 +1,9 @@
 import React from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
+// import { removeApps } from "../../utility/addToDB";
 
-const AppsCard = ({ apps }) => {
+const AppsCard = ({ apps, handleUninstall }) => {
   console.log(apps.title);
   return (
     <div className="flex justify-between bg-white gap-5 rounded-sm p-2 w-full items-center">
@@ -24,7 +25,15 @@ const AppsCard = ({ apps }) => {
         </div>
       </div>
       <div>
-        <button className="btn bg-green-600">Uninstall</button>
+        <button
+          onClick={() => {
+            handleUninstall(apps.id);
+            window.dispatchEvent(new Event("storageUpdate"));
+          }}
+          className="btn bg-green-600"
+        >
+          Uninstall
+        </button>
       </div>
     </div>
   );

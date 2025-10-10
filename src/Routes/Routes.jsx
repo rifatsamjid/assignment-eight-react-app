@@ -1,48 +1,90 @@
-import React, { Suspense } from "react";
+import React, { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router";
 import Root from "../pages/Root/Root";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
-import Home from "../pages/Home/Home";
-import Apps from "../components/Apps/Apps";
-import AppsDetails from "../components/Apps/AppsDetails";
 import ErrorApps from "../pages/ErrorPage/ErrorApps";
-import InstallApps from "../components/InstallApps/InstallApps";
+
+const Home = lazy(() => import("../pages/Home/Home"));
+const Apps = lazy(() => import("../components/Apps/Apps"));
+const InstallApps = lazy(() => import("../components/InstallApps/InstallApps"));
+const AppsDetails = lazy(() => import("../components/Apps/AppsDetails"));
+
+const Spinner = () => (
+  <div className="flex justify-center items-center h-screen">
+    <div className="w-10 h-10 border-4 border-gray-300 border-t-purple-600 rounded-full animate-spin"></div>
+  </div>
+);
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root,
+    element: (
+      <Suspense fallback={<Spinner />}>
+        <Root />
+      </Suspense>
+    ),
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
-      { index: true, path: "/", Component: Home },
       {
-        path: "apps",
-        Component: Apps,
-        errorElement: <ErrorApps></ErrorApps>,
+        index: true,
+        path: "/",
+        element: (
+          <Suspense fallback={<Spinner />}>
+            <Home />
+          </Suspense>
+        ),
       },
       // {
-      //   path: "install",
-      //   loader: () => fetch(`/Apps.json`),
-      //   // Component: InstallApps,
-      //   Component: InstallApps,
+      //   path: "apps",
+      //   element: (
+      //     <Suspense fallback={<Spinner />}>
+      //       <Apps />
+      //     </Suspense>
+      //   ),
+      //   errorElement: <ErrorApps />,
+      //   children: [
+      //     {
+      //       path: ":id",
+      //       loader: () => fetch(`/Apps.json`),
+      //       element: (
+      //         <Suspense fallback={<Spinner />}>
+      //           <AppsDetails />
+      //         </Suspense>
+      //       ),
+      //     },
+      //     {
+      //       path: "*",
+      //       element: <ErrorApps />,
+      //     },
+      //   ],
       // },
+      {
+        path: "apps",
+        element: (
+          <Suspense fallback={<Spinner />}>
+            <Apps />
+          </Suspense>
+        ),
+        errorElement: <ErrorApps></ErrorApps>,
+      },
       {
         path: "install",
         loader: () => fetch(`/Apps.json`),
-        Component: InstallApps,
+        element: (
+          <Suspense fallback={<Spinner />}>
+            <InstallApps />
+          </Suspense>
+        ),
       },
       {
         path: "apps/:id",
         loader: () => fetch(`/Apps.json`),
-        Component: AppsDetails,
+        element: (
+          <Suspense fallback={<Spinner />}>
+            <AppsDetails />
+          </Suspense>
+        ),
       },
     ],
-    errorElement: <ErrorPage></ErrorPage>,
   },
 ]);
-
-//  {
-//         path: "users/:userID",
-//         loader: ({ params }) =>
-//           fetch(`https://jsonplaceholder.typicode.com/users/${params.userID}`),
-//         Component: UserDetails,
-//       },
