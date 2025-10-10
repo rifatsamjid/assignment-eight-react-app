@@ -4,9 +4,9 @@ import Root from "../pages/Root/Root";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
 import Apps from "../components/Apps/Apps";
-import InstallApps from "../components/InstallAppps/InstallApps";
 import AppsDetails from "../components/Apps/AppsDetails";
 import ErrorApps from "../pages/ErrorPage/ErrorApps";
+import InstallApps from "../components/InstallApps/InstallApps";
 
 export const router = createBrowserRouter([
   {
@@ -19,8 +19,15 @@ export const router = createBrowserRouter([
         Component: Apps,
         errorElement: <ErrorApps></ErrorApps>,
       },
+      // {
+      //   path: "install",
+      //   loader: () => fetch(`/Apps.json`),
+      //   // Component: InstallApps,
+      //   Component: InstallApps,
+      // },
       {
         path: "install",
+        loader: () => fetch(`/Apps.json`),
         Component: InstallApps,
       },
       {

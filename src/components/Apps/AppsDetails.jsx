@@ -1,10 +1,10 @@
-import React from "react";
+// import React, { useState } from "react";
 import { useParams } from "react-router";
 import { useLoaderData } from "react-router";
 import { FiDownload } from "react-icons/fi";
 import { FaStar } from "react-icons/fa6";
 import { FaThumbsUp } from "react-icons/fa6";
-// import Chart from "./Chart";
+
 import {
   BarChart,
   Bar,
@@ -14,6 +14,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { addToStoredDB } from "../../utility/addToDB";
 
 const AppsDetails = () => {
   const app = useLoaderData();
@@ -34,6 +35,12 @@ const AppsDetails = () => {
     ratings,
     description,
   } = singleApp;
+
+  // const [install,setInstall]=useState(false)
+
+  const handleAddApps = (id) => {
+    addToStoredDB(id);
+  };
 
   return (
     <div className="mt-24">
@@ -64,7 +71,10 @@ const AppsDetails = () => {
               <p className="font-bold text-2xl">{reviews}</p>
             </div>
           </div>
-          <button className="btn w-48 bg-green-400 text-white">
+          <button
+            onClick={() => handleAddApps(id)}
+            className="btn w-48 bg-green-400 text-white"
+          >
             Install Now ({size} MB)
           </button>
         </div>

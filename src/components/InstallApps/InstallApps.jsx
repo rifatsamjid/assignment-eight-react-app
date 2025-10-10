@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useLoaderData } from "react-router";
+import { getStoredApps } from "../../utility/addToDB";
+import AppsCard from "./AppsCard";
 
 const InstallApps = () => {
+  const [appList, setAppList] = useState([]);
+
+  const data = useLoaderData();
+  console.log(data);
+
+  useEffect(() => {
+    const storedAppData = getStoredApps();
+    const convertAppStored = storedAppData.map((id) => parseInt(id));
+    const myAppList = data.filter((app) => convertAppStored.includes(app.id));
+    setAppList(myAppList);
+  }, []);
   return (
-    <div className="flex flex-col justify-center items-center text-center gap-6">
+    <div className="flex flex-col justify-center items-center text-center gap-6 mt-10">
       <div>
         <h1 className="text-4xl font-bold mb-3">Your Installed Apps</h1>
         <p className="text-gray-600">
@@ -10,7 +24,7 @@ const InstallApps = () => {
         </p>
       </div>
       <div className="flex items-center justify-between w-full gap-16">
-        <h2 className="font-bold">1 Apps Found</h2>
+        <h2 className="font-bold">{appList.length} Apps Found</h2>
         <select defaultValue="Pick a color" className="select appearance-none">
           <option>Sort By Size</option>
           <option>Crimson</option>
@@ -18,7 +32,10 @@ const InstallApps = () => {
           <option>Velvet</option>
         </select>
       </div>
-      <div className="flex justify-between bg-white gap-5 rounded-sm p-2 w-full items-center">
+      {appList.map((apps, index) => (
+        <AppsCard key={index} apps={apps}></AppsCard>
+      ))}
+      {/* <div className="flex justify-between bg-white gap-5 rounded-sm p-2 w-full items-center">
         <div className="flex gap-7">
           <img src="" alt="" />
           <div className="flex flex-col gap-4">
@@ -33,7 +50,7 @@ const InstallApps = () => {
         <div>
           <button className="btn bg-green-600">Uninstall</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
