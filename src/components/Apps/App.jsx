@@ -31,9 +31,9 @@ const App = ({ appsPromise }) => {
       <div className="flex flex-col lg:flex-row items-center gap-3 justify-between">
         <h1 className="text-xl font-bold">({users.length}) Apps Found</h1>
         <div className="flex items-center relative">
-          <CiSearch className="m-2 absolute" />
+          <CiSearch className="m-2 absolute text-black" />
           <input
-            className="border-1 border-gray-200 py-1.5 px-7 bg-white rounded-xs"
+            className="border-1 border-gray-200 py-1.5 px-7 text-black bg-white rounded-xs"
             type="text"
             name=""
             placeholder="search Apps"

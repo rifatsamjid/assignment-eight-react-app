@@ -9,8 +9,8 @@ const HomeApps = ({ homeAppsPromise }) => {
   return (
     <div className="mt-24">
       <div className="text-center">
-        <h1 className="text-3xl font-bold">Trending Apps</h1>
-        <p className="mt-2.5">
+        <h1 className="text-3xl font-bold text-black">Trending Apps</h1>
+        <p className="mt-2.5 text-black">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
